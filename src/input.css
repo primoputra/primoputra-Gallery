@@ -1,2 +1,5 @@
 @import "tailwindcss";
-/* npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch */
+
+.gird-card{
+     @apply h-full bg-blue-700 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[5/3] ; 
+}
